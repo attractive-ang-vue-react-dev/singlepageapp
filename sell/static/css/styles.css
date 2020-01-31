@@ -11,7 +11,21 @@
 	background-image:url(../img/preloader.svg);
 }
 @media (max-width:768px){
+	.fullscreen-logo{
+		display: none;
+	}
+	.mobile-logo{
+		display: inline-block;
+	}
 	.terms-policy{
 		padding:5rem 3rem 5rem !important;
+	}
+}
+@media (min-width:769px){
+	.fullscreen-logo{
+		display: inline-block;
+	}
+	.mobile-logo{
+		display: none;
 	}
 }
